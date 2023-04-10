@@ -1,0 +1,151 @@
+body {
+    background-image: url("ocean1.jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    /*opacity: 0.5;*/
+    position: absolute;
+    /* 要素を絶対位置に配置する */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* 要素を背面に配置する */
+}
+
+.borderLine{
+    border: 1px dotted white;
+}
+
+.mainFont {
+    color: coral;
+}
+.subFont{
+    color: green;
+    font-size:large;
+}
+
+.mainBlock {
+    background-color: white;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.mainIcon {
+    width: 7%; 
+    height: auto;
+    margin-right: 10px; /* アイコンとテキストの間隔を設定 */
+}
+
+.subIcon{
+    width: 3%; 
+    height: auto;
+    margin-left: 10px; /* アイコンとテキストの間隔を設定 */
+}
+
+.answer{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+.subAnswer{
+    color: white;
+    font-size: x-small;
+    font-weight: bold;
+}
+
+.subBackGround{
+    background-color: darkgreen; /* 黒板の背景色を設定 */
+    border: 10px solid #4d4d4d; /* 枠線を設定 */
+    padding: 10px; /* 内側の余白を設定 */
+    font-family: 'Courier New', monospace; /* フォントを設定 */
+    color: white; /* 文字色を設定 */
+}
+
+.questionForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* 要素を左右に配置するように設定 */
+    align-items: center; /* 要素を縦方向に中央に配置するように設定 */
+}
+
+.questionText{
+    margin-left: 30%; /* 各フォームの間隔を調整する場合は適宜設定 */
+    margin-bottom: 10px; /* 各フォームの下部の余白を調整する場合は適宜設定 */
+}
+
+.questionInput{
+    margin-right: 25%; /* 各フォームの間隔を調整する場合は適宜設定 */
+    margin-bottom: 10px; /* 各フォームの下部の余白を調整する場合は適宜設定 */
+}
+
+
+
+dt{
+    color: red;
+    font-size: large;
+}
+
+#g_navi {
+    background: rgb(237, 237, 237);
+}
+
+#g_navi ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 3%;
+    list-style-type: none;
+}
+
+#g_navi ul li {
+    position: relative;
+}
+
+#g_navi ul li a {
+    display: block;
+    padding: 10px 10px;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+}
+
+#g_navi ul li a:hover {
+    background-color: white;
+}
+
+.flex_box {
+    display: flex;
+    background-color: white;
+}
+
+.flex_item {
+    padding: 10px;
+    color: black;
+    margin: 10px;
+}
+
+.flex_item p {
+    word-break: break-word;
+}
+
+.flex_item:nth-child(1) {
+    background-color: white;
+    width: 25%;
+}
+
+.flex_item:nth-child(2) {
+    background-color: gainsboro;
+    border-radius: 5px;
+    width: 75%;
+    font-size: large;
+}
+
+.flex_image{
+    width: 100%; 
+    height: auto;
+}
+
+h5{
+    font-size: x-large;
+}

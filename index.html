@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntroduceMyself</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainBlock">
+        <!--タイトル-->
+        <h1 class="mainFont"><img src="icon1.png" class="mainIcon" id="TopHome">私は誰でしょう？？</h1>
+        <!--上記バーナー-->
+        <nav id="g_navi">
+            <ul>
+                <li><a id="TopHome">ホーム</a></li>
+                <li><a href="info.html">基本情報</a></li>
+                <li><a href="student.html">学生時代</a></li>
+                <li><a href="society.html">社会人時代</a></li>
+                <li><a href="question.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        <!--各情報へ基本情報を予想してみよう-->
+        <p>
+        <div class="subBackGround">
+            <h3>基本情報問題</h3>
+            <dl>
+                <dt>問題1:名前は？</dt>
+                <select name="名前">
+                    <option value="name1" selected >武藤敦</option>
+                    <option value="name2">斎藤健太</option>
+                    <option value="name3">白鳥修</option>
+                    <option value="name4">目黒新次郎</option>
+                </select>                
+                <dd>hint<span style="font-size: 1em">&#x1F4A1; 名前は全国で第3位。みよじは第19位</span> </dd>
+                <p class="borderLine"></p>
+
+                <dt>問題2:年齢は？</dt>
+                <select name="年齢">
+                    <option value="age1" selected >25歳</option>
+                    <option value="age2">32歳</option>
+                    <option value="age3">28歳</option>
+                    <option value="age4">15歳</option>
+                </select> 
+                <dd>hint<span style="font-size: 1em">&#x1F4A1; 大江健三郎氏がノーベル文学賞の年に生まれた。</span></dd>
+                <p class="borderLine"></p>
+                
+                <dt>問題3:出身地は？</dt>
+                <select name="出身地">
+                    <option value="from1" selected >沖縄県</option>
+                    <option value="from2">熊本県</option>
+                    <option value="from3">北海道</option>
+                    <option value="from4">埼玉県</option>
+                </select> 
+                <dd>hint<span style="font-size: 1em">&#x1F4A1; ダサいで有名な県は？</span></dd>
+                <p class="borderLine"></p>
+
+                <dt>問題4:趣味は？</dt>
+                <select name="趣味">
+                    <option value="int1" selected >サッカー</option>
+                    <option value="int2">アイスホッケー</option>
+                    <option value="int3">野球</option>
+                    <option value="int4">ハンドボール</option>
+                </select> 
+                <dd>hint<span style="font-size: 1em">&#x1F4A1; ボールを蹴るスポーツが大好き。</span></dd>
+                <p class="borderLine"></p>
+                <button type="submit">送信</button>
+            </dl>
+        </div>
+        <span class="subFont">基本情報<img src="finger1.jpeg" class="subIcon"></span>
+        <button onclick="window.location.href='info.html'">答え</button>
+        </p>
+
+        <!--各情報へ学生時代-->
+        <p>
+            <div class="subBackGround">
+                <h3>学生情報</h3>
+                <dl>
+                    <dt>問題1:最終学歴は？</dt>
+                    <select name="学歴">
+                        <option value="sch1" selected >高校</option>
+                        <option value="sch2">大学四年制</option>
+                        <option value="sch3">中学</option>
+                        <option value="sch4">専門学校</option>
+                    </select>         
+                    <dd>hint<span style="font-size: 1em">&#x1F4A1; AO入試で合格。</span> </dd>
+                    <p class="borderLine"></p>
+
+                    <dt>問題2:部活は？</dt>
+                    <select name="部活">
+                        <option value="name1" selected >サッカー部</option>
+                        <option value="name2">野球部</option>
+                        <option value="name3">バトミントン部</option>
+                        <option value="name4">プログラミング部</option>
+                    </select>         
+                    <dd>hint<span style="font-size: 1em">&#x1F4A1; 今でも一番の趣味！</span></dd>
+                    <p class="borderLine"></p>
+
+                    <dt>問題3:サークル活動は？</dt>
+                    <select name="サークル">
+                        <option value="name1" selected >飲みサークル</option>
+                        <option value="name2">サッカーサークル</option>
+                        <option value="name3">異文化交流サークル</option>
+                        <option value="name4">旅行サークル</option>
+                    </select>         
+                    <dd>hint<span style="font-size: 1em">&#x1F4A1; いろんな人と関わるサークル。</span></dd>
+                    <p class="borderLine"></p>
+
+                    <dt>問題4:誇れることは？</dt>
+                    <select name="名前">
+                        <option value="name1" selected >大学の広告に選出</option>
+                        <option value="name2">彼女が100人できた</option>
+                        <option value="name3">毎日寝坊しなかった</option>
+                        <option value="name4">バイトを頑張った</option>
+                    </select>         
+                    <dd>hint<span style="font-size: 1em">&#x1F4A1; 多くの人に見られた！</span></dd>
+                    <p class="borderLine"></p>
+                    <button type="submit">送信</button>
+                </dl>
+            </div>
+            <span class="subFont">学生時代<img src="finger1.jpeg" class="subIcon"></span>
+            <button onclick="window.location.href='student.html'">答え</button>
+        </p>
+        <!--各情報へ社会人時代-->
+        <p>
+            <div class="subBackGround">
+                <h3>社会人時代</h3>
+                <dl>
+                    <dt>問題1:経験職種の数は？</dt>
+                    <select name="職種">
+                        <option value="occ1" selected >5社</option>
+                        <option value="occ2">10社</option>
+                        <option value="occ3">4社</option>
+                        <option value="occ4">1社</option>
+                    </select> 
+                    <dd>hint<span style="font-size: 1em">&#x1F4A1; 全部バラバラの職種。</span> </dd>
+                    <p class="borderLine"></p>
+
+                    <dt>問題2:沖縄の前はどこに？</dt>
+                    <select name="場所">
+                        <option value="plc1" selected >北海道</option>
+                        <option value="plc2">ドイツ</option>
+                        <option value="plc3">埼玉県</option>
+                        <option value="plc4">タイ</option>
+                    </select> 
+                    <dd>hint<span style="font-size: 1em">&#x1F4A1; クラブが有名な国！</span></dd>
+                    <p class="borderLine"></p>
+
+                    <dt>問題3:直近の職種は？</dt>
+                    <select name="直近">
+                        <option value="rct1" selected >ダイビングインストラクター</option>
+                        <option value="rct2">スキーインストラクター</option>
+                        <option value="rct3">サッカーインストラクター</option>
+                        <option value="rct4">何もやってない</option>
+                    </select> 
+                    <dd>hint<span style="font-size: 1em">&#x1F4A1; 沖縄ならではの仕事！</span></dd>
+                    <p class="borderLine"></p>
+
+                    <dt>問題4:仕事以外にやったことは？</dt>
+                    <select name="以外">
+                        <option value="etc1" selected >ゲーム三昧</option>
+                        <option value="etc2">株</option>
+                        <option value="etc3">ボランティア活動</option>
+                        <option value="etc4">世界放浪</option>
+                    </select> 
+                    <dd>hint<span style="font-size: 1em">&#x1F4A1; 色々なところに行った。</span></dd>
+                    <p class="borderLine"></p>
+                    <button type="submit">送信</button>
+                </dl>
+            </div>
+            <span class="subFont">社会人時代<img src="finger1.jpeg" class="subIcon"></span>
+            <button onclick="window.location.href='society.html'">答え</button>
+        </p>
+    </div>
+
+
+</body>
+
+</html>

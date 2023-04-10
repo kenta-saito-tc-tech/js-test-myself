@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntroduceMyself</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainBlock">
+        <!--タイトル-->
+        <h1 class="mainFont"><img src="icon1.png" class="mainIcon" id="TopHome">私は誰でしょう？？</h1>
+        <!--上記バーナー-->
+        <nav id="g_navi">
+            <ul>
+                <li><a id="TopHome">ホーム</a></li>
+                <li><a href="/info">基本情報</a></li>
+                <li><a href="/service">学生時代</a></li>
+                <li><a href="/about">社会人時代</a></li>
+                <li><a href="/contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        <!--各情報へ基本情報を予想してみよう-->
+        <p>
+        <div class="subBackGround">
+            <h3>お問い合わせ</h3>
+            <div class="questionForm">
+                <label for="name" class="questionText">名前：</label>
+                <input type="text" name="name" placeholder="紹介 太郎" class="questionInput">
+            </div>
+            <div class="questionForm">
+                <label for="email" class="questionText">メールアドレス：</label>
+                <input type="email" name="email" placeholder="xxxx-xxxx@gmail.com" class="questionInput">
+            </div>
+            <div class="questionForm">
+                <label for="free" class="questionText">質問内容：</label>
+                <textarea name="free" rows="5" cols="20" class="questionInput"></textarea>
+            </div>
+            <button type="submit">送信</button>
+        </div>
+        <span class="subFont">ホームへ<img src="finger1.jpeg" class="subIcon"></span>
+        <button onclick="window.location.href='info.html'">戻る</button>
+        </p>
+
+</body>
+
+</html>
